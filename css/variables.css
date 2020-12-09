@@ -1,0 +1,12 @@
+:root {
+    --true-color: #A2AD00;
+    --true-color-hover:#dbe72c;
+    --true-text-color: #000;
+    --false-color: #E05206;
+    --false-color-hover: #fa8241;
+    --false-text-color: #000;
+    --none-color: #002f44;
+    --none-color-hover:#005C84;
+    --none-text-color:#eee;
+    --border-radius:40px;
+}

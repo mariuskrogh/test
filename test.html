@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test page</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/test.css">
+</head>
+
+<body>
+    <h1>Quiz</h1>
+    <div class='quiz-container'>
+        <div> 1: Er du glad i jul? </div>
+        <my-component id="q1" true-text="Ja" false-text=":("></my-component>
+
+        <div> 2: Tror du på nissen? </div>
+        <my-component id="q2" true-text="(Y)" false-text="Nope"></my-component>
+
+        <div> 3: Har barna vært snille i år? </div>
+        <my-component id="q3" true-text="Ja" false-text="Nei"></my-component>
+
+        <div>4: Har du kjøpt inn alle julegavene? </div>
+        <my-component id="q4" true-text="Ja " false-text="Nei"></my-component>
+    </div>
+
+    <div>
+        <div id="send-button">Send inn</div>
+    </div>
+    <div class='merknad'> &lt;- Se konsoll loggen i debugger vindu for data -&gt;</div>
+</body>
+<script src="./js/test.js" type="module"></script>
+
+</html>
